@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>E-Commerce Customer Registration</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <div class="form-container">
+    <h1>Customer Registration</h1>
+    <form action="#" method="POST">
+      <!-- Personal Information -->
+      <fieldset>
+        <legend>Personal Information</legend>
+        <label for="full-name">Full Name:</label>
+        <input type="text" id="full-name" name="full-name" required placeholder="Enter your full name">
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required placeholder="Enter your email address">
+
+        <label for="phone">Phone Number:</label>
+        <input type="tel" id="phone" name="phone" required placeholder="Enter your phone number">
+
+        <label for="dob">Date of Birth:</label>
+        <input type="date" id="dob" name="dob" required>
+      </fieldset>
+
+      <!-- Address Information -->
+      <fieldset>
+        <legend>Address Information</legend>
+        <label for="address">Address:</label>
+        <textarea id="address" name="address" rows="4" required placeholder="Enter your shipping address"></textarea>
+
+        <label for="city">City:</label>
+        <input type="text" id="city" name="city" required placeholder="Enter your city">
+
+        <label for="state">State:</label>
+        <input type="text" id="state" name="state" required placeholder="Enter your state">
+
+        <label for="zip">Zip Code:</label>
+        <input type="text" id="zip" name="zip" required placeholder="Enter your zip code">
+      </fieldset>
+
+
+      <!-- Submit Button -->
+      <button type="submit">Register</button>
+    </form>
+  </div>
+
+</body>
+</html>
